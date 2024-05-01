@@ -53,3 +53,38 @@
 # else:
 #     print("Los números son iguales.")
 
+
+#Ejercicio 5
+# print("Cambiar de pesos a dolares:")
+# pesos = float(input ("Ingrese la cantidad en pesos:"))
+# tasa_cambio = float(input ("Ingrese la tasa de cambios:"))
+
+# dolares = pesos / tasa_cambio
+
+# print("Desea convertir esos pesos a dolares?(s/n)")
+# operacion = input()
+# if operacion.lower() == "s":
+#     print("La cantidad en dólares es:", dolares)
+# elif operacion.lower() == "n":
+#     print("Operación cancelada.")
+# else:
+#     print("Respuesta inválida.")
+
+# #Ejercicio 6
+# print("Ingrese su edad:")
+# numero = int(input())
+# if numero >= 16:
+#     print("Puede votar",numero)
+# else:
+#     print("No vota")
+
+# #Ejercicio 7
+# for dia in range(1,5):
+#     if(dia==1):
+#             print("Hoy es Lunes" + str(dia))
+#     if(dia==2):
+#             print("Hoy es Martes" + str(dia))
+#     if(dia==3):
+#             print("Hoy es Miercoles" + str(dia))
+#     if(dia==4):
+#             print("Hoy es Jueves" + str(dia))
